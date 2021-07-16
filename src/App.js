@@ -15,8 +15,8 @@ function App() {
         {todoList.map(item=>(
           <TodoItem
           name={item.item}
-          id={item.id}
           done={item.done}
+          id={item.id}
           />
         ))}
 
